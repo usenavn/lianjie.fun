@@ -1,0 +1,38 @@
+baseurl = "https://lianjie.fun"
+languageCode = "en-us"
+title = "LIANJIE"
+theme = "hugo-lithium-theme"
+googleAnalytics = ""
+disqusShortname = ""
+disableKinds = ["taxonomy", "taxonomyTerm", "section", "404", "RSS"]
+enableEmoji=true
+
+[permalinks]
+    post = "/:year/:month/:day/:title/"
+    page = "/:title/"
+
+[[menu.main]]
+    name = "About"
+    url = "/about/"
+[[menu.main]]
+    name = "MAT1140"
+    url = "https://mat1140.lianjie.fun"
+
+
+[params]
+    mainSections = ["post"]
+
+    description = ""
+
+    # path to the favicon, under "static"
+    favicon = "favicon.ico"
+
+    [params.logo]
+    url = "logo.png"
+    width = 50
+    height = 50
+    alt = "Logo"
+
+    [params.icon]
+    url = "favicon.ico"
+
